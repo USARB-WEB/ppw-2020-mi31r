@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "aside section"
+    "footer footer"
+    ;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100px 40px 400px 100px;
+}
+header{
+    background-color: burlywood;
+    grid-area: header;
+}
+
+nav{
+    background-color: cadetblue;
+    grid-area: nav;
+}
+
+aside{
+    background-color: pink;
+    grid-area: aside;
+}
+
+section{
+    background-color: grey;
+    grid-area: section;
+}
+
+footer{
+    background-color: indigo;
+    grid-area: footer;
+}
