@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image: url(img/body_bg.jpg);
+    background-attachment: fixed;
+}
+
+.bg-color{
+    width: 600px;
+    height: 400px;
+    border: 3px solid red;
+    background-color: blue;
+}
+
+.bg-image{
+    width: 600px;
+    height: 400px;
+    border: 3px solid red;
+    background-image: url(img/smile.jpg);
+}
+
+.bg-image-repeat-x{
+    width: 600px;
+    height: 400px;
+    border: 3px solid red;
+    background-image: url(img/smile.jpg);
+    background-repeat: repeat-x;
+}
+
+.bg-image-repeat-y{
+    width: 600px;
+    height: 400px;
+    border: 3px solid red;
+    background-image: url(img/smile.jpg);
+    background-repeat: repeat-y;
+}
+
+.bg-image-no-repeat{
+    width: 600px;
+    height: 400px;
+    border: 3px solid red;
+    background-image: url(img/smile.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-image-cover{
+    width: 600px;
+    height: 400px;
+    border: 3px solid red;
+    background-image: url(img/smile.jpg);
+    background-size: cover;
+}
+
+
+
