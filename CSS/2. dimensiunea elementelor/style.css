@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.size{
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.margin{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red; 
+}
+
+.padding{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red; 
+}
+
+.bordered{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    border: 10px solid red; 
+}
+
+
+.elastic{
+    padding: 10px;
+    width: 40%;
+    height: 300px;
+    border: 10px solid red; 
+}
+
+
