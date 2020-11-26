@@ -48,6 +48,10 @@ nav a{
     color: #ccc;
 }
 
+nav a.active{
+    background-color: indigo;
+}
+
 nav a:hover{
     background-color: indigo;
 }
@@ -57,7 +61,7 @@ aside{
     grid-area: aside;
 }
 
-section{
+section#main{
     background-color: grey;
     grid-area: section;
     display: grid;
@@ -68,17 +72,48 @@ section{
     padding: 10px;
 }
 
-section img{
+section#main img{
     grid-area: img;
 }
 
-section h2{
+section#main h2{
     grid-area: title;
 }
 
-section p{
+section#main p{
     grid-area: description;
     text-align: justify;
+}
+
+section#photos{
+    background-color: grey;
+    grid-area: section;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+section#photos img{
+    width: 100%;
+}
+
+section#video{
+    background-color: grey;
+    grid-area: section;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+section#contacts{
+    background-color: grey;
+    grid-area: section;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    padding: 10px;
 }
 
 footer{
