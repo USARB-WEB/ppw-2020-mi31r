@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    
+}
+
+div#page {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "section aside"
+    "footer footer"
+    ;
+    grid-template-columns: auto 200px;
+    grid-template-rows: 100px 40px auto 100px; 
+}
+
+header{
+    background-color: burlywood;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+header img{
+    height: 100%;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav a{
+    background-color: cadetblue;
+    border: 1px solid indianred;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav a:hover{
+    background-color: indigo;
+}
+
+aside{
+    background-color: pink;
+    grid-area: aside;
+}
+
+section{
+    background-color: grey;
+    grid-area: section;
+    display: grid;
+    grid-template-areas: 
+    "img title"
+    "description description"
+    ;
+    padding: 10px;
+}
+
+section img{
+    grid-area: img;
+}
+
+section h2{
+    grid-area: title;
+}
+
+section p{
+    grid-area: description;
+    text-align: justify;
+}
+
+footer{
+    background-color: indigo;
+    grid-area: footer;
+}
+
+footer nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer nav a{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ccc;
+}
+
+footer nav a:hover{
+    background-color: indigo;
+}
